@@ -37,7 +37,8 @@ class Punto():
 
 
 class Rectangulo(Punto):
-    import math
+    import math #la clase math se utiliza para a traves de pitagoras calcular la diagonal pero yo no he encontrado manera de 
+    #necesitarla o al menos eso creo
     def __init__(self,x1,x2,y1,y2):
         #Hay que tener en cuenta que los rectangulos vienen definidos por 4 ptos
         punto1 = super().__init__(self,x1,y1) #Extremo inferior izq.
